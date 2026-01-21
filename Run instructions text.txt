@@ -1,0 +1,19 @@
+Requirements
+R 4.2 or later
+Packages tidyverse readODS janitor lubridate stringr
+Inputs in the same folder as Code.R
+table-3123-trains-planned-and-cancellations-by-operator-and-cause.ods
+table-3133-train-punctuality-at-recorded-station-stops-by-operator.ods
+table-1220-passenger-journeys.ods
+Run
+Set working directory to the project folder and run source("Code.R")
+Outputs
+outputs data operator_quarter_panel.csv
+outputs tables table1_operator_benchmark.csv
+outputs tables table2_regression_cancel_vs_punct.csv
+outputs tables table3_operator_clusters.csv
+outputs plots figure1_gb_cancellation_rate.png
+outputs plots figure2_gb_punctuality_3min.png
+outputs plots figure3_operator_scatter.png
+outputs plots figure4_journeys_vs_reliability.png
+outputs IJC437_Rail_Results.doc
